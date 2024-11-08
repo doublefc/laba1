@@ -1,6 +1,7 @@
 
-from games import nok, geom_progression
 from Game import Game
+from games import geom_progression, nok
+
 
 def main():
     available_games = {'Геометрическая прогрессия': geom_progression.geom_progression, 'Наименьшее общее кратное': nok.nok}

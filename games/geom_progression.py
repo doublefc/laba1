@@ -1,5 +1,6 @@
 import random
 
+
 def geom_progression(length=10):
     q = random.randint(0, 10)
     progression = [q**i for i in range(length)]
