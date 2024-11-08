@@ -22,9 +22,6 @@ class Game:
                 user_answer = float(input(question + '\n Твой ответ:'))                
                 if user_answer == right_answer:
                     print('Молодец, верно')
-                    break
-                else:
-                    print('Попытайся еще')
             else:
                 print(f'Количество попыток кончилось, правильный ответ был {right_answer}')
             
